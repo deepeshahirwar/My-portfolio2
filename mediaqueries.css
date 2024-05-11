@@ -64,13 +64,19 @@
     margin-bottom: 2rem;
   }
   .about-containers,
-  .contact-info-upper-container,
+  
   .btn-container {
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+   
+  } 
+  .upper-con{ 
+   
+    display: flex; 
+    align-items: start; 
+    justify-content: left; 
+    flex-direction: column;
   }
-  .contact-info-container {
-    margin: 0;
-  }
+  
   .contact-info-container p,
   .nav-links li a {
     font-size: 1rem;
@@ -99,5 +105,22 @@
   }
   .text-container {
     text-align: justify;
+  } 
+
+  .profiles{
+    margin-left: 5%;
+  } 
+
+  .footer-con{ 
+    margin: 0; 
+    padding-right: 0;
+   margin-top: 7rem; 
+   background: #0b0b0b; 
+   padding-top: 1rem; 
+   color: rgba(255, 255, 255, 0.852); 
+   padding-bottom: 0;
+  } 
+  .nav-links li a {
+    color: rgb(230, 227, 227);
   }
 }
