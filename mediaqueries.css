@@ -68,15 +68,21 @@
   .btn-container {
     flex-wrap: wrap; 
    
-  } 
+  }  
+ 
   .upper-con{ 
-   
+    padding: 0; 
+    margin: 0;
     display: flex; 
     align-items: start; 
     justify-content: left; 
     flex-direction: column;
+  } 
+  /* .contact-info-container{
+    margin: 0; 
+    padding: 0;
   }
-  
+   */
   .contact-info-container p,
   .nav-links li a {
     font-size: 1rem;
@@ -113,7 +119,7 @@
 
   .footer-con{ 
     margin: 0; 
-    padding-right: 0;
+   width: 100%;
    margin-top: 7rem; 
    background: #0b0b0b; 
    padding-top: 1rem; 
