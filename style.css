@@ -321,7 +321,7 @@ section {
 /* EXPERIENCE SECTION */
 
 #experience {
-  position: relative;
+  position: relative; 
 }
 
 .experience-sub-title {
@@ -355,12 +355,22 @@ article {
 
 article .icon {
   cursor: default;
+} 
+
+.profile-view{
+  margin-top: 1rem; 
+  width: 4rem; 
+  height: 2rem; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 /* PROJECTS SECTION */
 
 #projects {
-  position: relative;
+  position: relative; 
+  margin-top: 8rem;
 }
 
 .color-container {
